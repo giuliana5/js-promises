@@ -3,27 +3,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <script src="https://unpkg.com/bootstrap"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h2>Number Facts</h2>
-    <hr>
-    <h3>Part 1</h3>
-    <ol>
-        <li class="steps">
-            <ul id="p1-s1">
-            </ul>
-        </li>
-        <li class="steps">
-            <ul id="p1-s2">
-            </ul>
-        </li>
-        <li class="steps">
-            <ul id="p1-s3">
-            </ul>
-        </li>
-    </ol>
+    <div id="step1">
+        <h2>Number Facts</h2>
+        <hr>
+        <h3>Part 1</h3>
+        <ol>
+            <li class="steps">
+                <ul id="p1-s1">
+                </ul>
+            </li>
+            <li class="steps">
+                <ul id="p1-s2">
+                </ul>
+            </li>
+            <li class="steps">
+                <ul id="p1-s3">
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div id="step2">
+        <h2>Pick a Card</h2>
+        <hr>
+        <button id="btn" class="btn btn-outline-dark m-3">Pick a Card</button>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body"></div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
